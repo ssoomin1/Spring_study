@@ -1,0 +1,22 @@
+package kr.hs.study.beans;
+
+public class TestBean2 {
+	private int a;
+	private String b;
+	private DataBean3 c;
+	private DataBean4 d;
+	public int getA() {
+		return a;
+	}
+	public String getB() {
+		return b;
+	}
+	public DataBean3 getC() {
+		return c;
+	}
+	public DataBean4 getD() {
+		return d;
+	}
+	
+	
+}

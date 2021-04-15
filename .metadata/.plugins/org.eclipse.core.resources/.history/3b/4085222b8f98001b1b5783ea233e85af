@@ -1,0 +1,19 @@
+package kr.hs.study.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import kr.hs.study.beans.Kia;
+
+@Configuration
+@ComponentScan(basePackages = "kr.hs.study.beans")
+public class JavaConfig {
+	@Bean
+	public Kia k1() {
+		Kia kk1=new Kia();
+		kk1.setName("k3");
+		kk1.setColor("gray");
+		return kk1;
+	}
+}

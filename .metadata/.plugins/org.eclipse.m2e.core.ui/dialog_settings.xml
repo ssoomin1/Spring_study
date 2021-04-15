@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="F:\dev\AOP"/>
+			<item value="F:\dev\CarAnnotation1"/>
+			<item value="E:\dev\Annotation"/>
+			<item value="E:\dev\JavaConfigration"/>
+			<item value="F:\dev\Car_java\src\main\java\kr\hs\study\config\JavaConfig.java"/>
+			<item value="C:\Users\soomin\git\Spring_study\AutoWireDI"/>
+			<item value="C:\Users\soomin\git\Spring_study\TVpjt_xml"/>
+			<item value="F:\dev\SetterDI"/>
+			<item value="D:\dev\BasicJava"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="kr.hs.study"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="AOP2"/>
+			<item value="AOP"/>
+			<item value="CarAnnotation2"/>
+			<item value="CarAnnotation1"/>
+			<item value="Car_Annotation"/>
+			<item value="Annotation"/>
+			<item value="AutoWireDI_2"/>
+			<item value="AutowireDI"/>
+			<item value="Car_autowire"/>
+			<item value="Car_java"/>
+			<item value="Car_xml"/>
+			<item value="TVpjtXml"/>
+			<item value="TVpjt_xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+</section>

@@ -1,0 +1,24 @@
+package kr.hs.study.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import kr.hs.study.beans.TestBean;
+import kr.hs.study.beans.TestBean3;
+
+@Configuration
+@ComponentScan(basePackages = "kr.hs.study.beans")
+public class JavaConfig {
+	@Bean
+	TestBean tb2() {
+		TestBean test2=new TestBean();
+		return test2;
+	}
+	
+	@Bean
+	TestBean3 tb3() {
+		TestBean3 t3=new TestBean3();
+		return t3;
+	}
+}

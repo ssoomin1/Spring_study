@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 기본 세팅을 해주어야함 -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	                    http://www.springframework.org/schema/beans/spring-beans.xsd
+	                    http://www.springframework.org/schema/context
+	                    http://www.springframework.org/schema/context/spring-context.xsd
+	                    http://www.springframework.org/schema/aop
+	                    http://www.springframework.org/schema/aop/spring-aop.xsd">                
+
+<!--<context:annotation-config/> 스캔할 빈이 여러개이면 이렇게 여러개 써주기-->
+<context:component-scan base-package="kr.hs.study.beans"/>
+<!-- <context:component-scan base-package="kr.hs.study.beans"/>
+<context:component-scan base-package="kr.hs.study.beans"/> -->
+<!-- beans 패키지 안에 있는 annotation을 분석해서 bean을 생성하고 관리하고 적절한 행동을 해라(@Lazy,@Scope) -->
+<!-- <bean id="tb1" class="kr.hs.study.beans.TestBean1"/>-->
+</beans>

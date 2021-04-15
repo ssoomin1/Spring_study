@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 기본 세팅을 해주어야함 -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	                    http://www.springframework.org/schema/beans/spring-beans.xsd
+	                    http://www.springframework.org/schema/context
+	                    http://www.springframework.org/schema/context/spring-context.xsd
+	                    http://www.springframework.org/schema/aop
+	                    http://www.springframework.org/schema/aop/spring-aop.xsd">    
+	                    
+	                    
+	<bean id="samsung" class="kr.hs.study.beans.SamsungTV"  lazy-init="true"/>
+	<bean id="lg" class="kr.hs.study.beans.LGTV" lazy-init="true"/> 
+	<bean id="soni" class="kr.hs.study.beans.soni" lazy-init="true"/>    
+	<bean id="apple" class="kr.hs.study.beans.apple" lazy-init="true"/>               
+</beans>

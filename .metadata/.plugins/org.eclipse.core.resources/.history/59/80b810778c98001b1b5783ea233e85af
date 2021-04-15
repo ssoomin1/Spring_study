@@ -1,0 +1,13 @@
+package kr.hs.study.beans;
+
+public class Kia implements Car{
+
+	public int money(int money) {
+		return money;
+	}
+
+	public void Order() {
+		System.out.println("기아차의 "+this.getName()+"를 주문합니다.");
+	}
+
+}

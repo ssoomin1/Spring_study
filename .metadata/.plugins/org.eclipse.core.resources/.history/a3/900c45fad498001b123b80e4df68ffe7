@@ -1,0 +1,44 @@
+package kr.hs.study.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+
+@Component
+@ComponentScan(basePackages = "kr.hs.study.beans")
+public class Kia implements Car{
+	@Autowired
+	String name;
+	@Autowired
+	String color;
+	
+	public Kia(String name, String color) {
+		this.name = name;
+		this.color = color;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public int money(int money) {
+		return money;
+	}
+
+	public void Order() {
+		System.out.println("기아차의 "+this.getName()+"를 주문합니다.");
+	}
+
+}

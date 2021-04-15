@@ -1,0 +1,14 @@
+package kr.hs.study.beans;
+
+public class HyunDai implements Car{
+	String name;
+	String color;
+	public int money(int money) {
+		return money;
+	}
+
+	public void Order() {
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;kr.hs.study.beans.DataBean&apos; to &apos;TestBean&apos;&#x0D;&#x0A;- Original project: &apos;BasicSpring&apos;&#x0D;&#x0A;- Original element: &apos;kr.hs.study.beans.DataBean&apos;&#x0D;&#x0A;- Renamed element: &apos;kr.hs.study.beans.TestBean&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DataBean&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;kr.hs.study.beans{DataBean.java[DataBean" matchStrategy="1" name="TestBean" qualified="false" references="true" similarDeclarations="false" stamp="1615876564073" textual="false" version="1.0"/>
+</session>

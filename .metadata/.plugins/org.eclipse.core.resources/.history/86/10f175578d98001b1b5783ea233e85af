@@ -1,0 +1,20 @@
+package kr.hs.study.main;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import kr.hs.study.beans.HyunDai;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext ctx1=new ClassPathXmlApplicationContext("kr/hs/study/config/config.xml");
+		HyunDai h1=ctx1.getBean(HyunDai.class);
+		System.out.println("가격: "+h1.money(1000));
+		h1.Order();
+		System.out.println("name: "+h1.getName());
+		System.out.println("color: "+h1.getColor());
+		//AnnotationConfigApplicationContext ctx=new AnnotationConfigApplicationContext();
+	}
+
+}

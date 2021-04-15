@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;kr.hs.study.main.Main&apos; to &apos;MainClass&apos;&#x0D;&#x0A;- Original project: &apos;SetterDI&apos;&#x0D;&#x0A;- Original element: &apos;kr.hs.study.main.Main&apos;&#x0D;&#x0A;- Renamed element: &apos;kr.hs.study.main.MainClass&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;kr.hs.study.main{Main.java[Main" matchStrategy="1" name="MainClass" qualified="false" references="true" similarDeclarations="false" stamp="1616481601656" textual="false" version="1.0"/>
+</session>
