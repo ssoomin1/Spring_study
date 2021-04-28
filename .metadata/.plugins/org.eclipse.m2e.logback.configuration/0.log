@@ -6633,3 +6633,7 @@ org.eclipse.core.runtime.CoreException: Launch configuration MainClass (14) refe
 2021-04-28 19:51:40,542 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpringStudy\Spring_study\ConstructorDI\src\main\resources
 2021-04-28 19:51:40,545 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-04-28 19:51:40,557 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpringStudy\Spring_study\ConstructorDI\src\test\resources
+2021-04-28 20:22:19,547 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-28 20:22:19,583 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpringStudy\Spring_study\JavaConfigration\src\main\resources
+2021-04-28 20:22:19,587 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-28 20:22:19,594 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpringStudy\Spring_study\JavaConfigration\src\test\resources
