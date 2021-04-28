@@ -22,8 +22,6 @@ public class MainClass {
 		 * System.out.println("obj1: "+obj1);
 		 * ctx.close();
 		 */
-		
-		//출력순서 : 생성자=> init 메소드 => sysout => destory메소드
 	}
 
 }

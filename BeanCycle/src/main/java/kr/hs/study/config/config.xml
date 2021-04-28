@@ -12,4 +12,7 @@
 	                    http://www.springframework.org/schema/aop/spring-aop.xsd">                
 
 <bean id="t1" class="kr.hs.study.beans.TestBean" init-method="testBean_init" destroy-method="testBean_destroy"/>
+<!-- 
+<bean id="t1" class="kr.hs.study.beans.TestBean" init-method="testBean_init" destroy-method="testBean_destroy" />
+ -->
 </beans>
