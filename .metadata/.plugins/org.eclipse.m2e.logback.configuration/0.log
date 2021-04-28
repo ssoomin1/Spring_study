@@ -6637,3 +6637,12 @@ org.eclipse.core.runtime.CoreException: Launch configuration MainClass (14) refe
 2021-04-28 20:22:19,583 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpringStudy\Spring_study\JavaConfigration\src\main\resources
 2021-04-28 20:22:19,587 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-04-28 20:22:19,594 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpringStudy\Spring_study\JavaConfigration\src\test\resources
+2021-04-28 20:32:45,255 [Worker-50: Creating project "AnnotationStudy1"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kr.hs.study:AnnotationStudy1:0.0.1-SNAPSHOT @ D:\SpringStudy\Spring_study\AnnotationStudy1\pom.xml.
+2021-04-28 20:32:46,976 [Worker-50: Creating project "AnnotationStudy1"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AnnotationStudy1/src/main/java
+2021-04-28 20:32:46,990 [Worker-50: Creating project "AnnotationStudy1"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AnnotationStudy1/src/main/resources
+2021-04-28 20:32:47,001 [Worker-50: Creating project "AnnotationStudy1"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AnnotationStudy1/src/test/java
+2021-04-28 20:32:47,003 [Worker-50: Creating project "AnnotationStudy1"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AnnotationStudy1/src/test/resources
+2021-04-28 20:32:54,897 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-28 20:32:54,926 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-28 20:32:54,930 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-28 20:32:54,942 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

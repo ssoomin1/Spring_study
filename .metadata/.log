@@ -2375,3 +2375,27 @@ java.io.FileNotFoundException: D:\SpringStudy\Spring_study\JavaConfigration\targ
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2021-04-28 20:22:19.590
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 2 2 2021-04-28 20:31:55.231
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-28 20:32:49.507
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-28 20:32:49.828
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-28 20:32:49.857
+!MESSAGE buffering callback sts4.classpath.KkJSYSFg AnnotationStudy1 false 7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-28 20:32:49.875
+!MESSAGE executing callback sts4.classpath.KkJSYSFg 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-28 20:32:50.660
+!MESSAGE executing callback sts4.classpath.KkJSYSFg SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-04-28 20:32:54.902
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-04-28 20:32:54.933
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
