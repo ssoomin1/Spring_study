@@ -25,15 +25,19 @@
 	<bean id="t4" class="kr.hs.study.beans.TestBean1" lazy-init="true">
 	   <constructor-arg value="spring4" type="java.lang.String"></constructor-arg>
 	</bean>
+	<bean id="t5" class="kr.hs.study.beans.TestBean1" lazy-init="true">
+		<constructor-arg value="Spring" index="2" />
+		<constructor-arg value="100" index="0" />
+		<constructor-arg value="100.0" index="1"/>
+	</bean>
 	
+	<bean id="d1" class="kr.hs.study.beans.DataBean"/>
 	<bean id="t6" class="kr.hs.study.beans.TestBean2" lazy-init="true">
-		<constructor-arg>
-			<bean class="kr.hs.study.beans.DataBean"/> <!-- DataBean의 객체 생성 -->
-		</constructor-arg>
-		
-		<constructor-arg>
-			<bean class="kr.hs.study.beans.DataBean"/>
-		</constructor-arg>
+		<constructor-arg ref="d1"/>
+		<constructor-arg ref="d1" /> 
+		<!-- <constructor-arg>
+				<bean class="kr.hs.study.beans.DataBean/>
+			 </constructor-arg> 과 동일하다.-->
 	</bean> 
 	
 	

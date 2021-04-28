@@ -26,8 +26,19 @@ public class TestBean1 {
 		this.data2=data2;
 		this.data3="spring3";
 	}
-	
+	public TestBean1(String data3) {
+		System.out.println("TestBean1의 String 생성자");
+		this.data1=40;
+		this.data2=44.44;
+		this.data3=data3;
+	}
 	//스프링 하나 모든 거 하나 더 만들기
+	public TestBean1(int data1,double data2,String data3) {
+		System.out.println("TestBean1의 모든 생성자");
+		this.data1=data1;
+		this.data2=data2;
+		this.data3=data3;
+	}
 	
 	public int getData1() {
 		return data1;
